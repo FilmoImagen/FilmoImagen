@@ -11,6 +11,25 @@ package Modelo;
  */
 public class Ventas {
     private String nombre;
+    double total;
+    int peliculas;
+
+    public double getTotal() {
+        return total;
+    }
+
+    public void setTotal(double total) {
+        this.total = total;
+    }
+
+    public int getPeliculas() {
+        return peliculas;
+    }
+
+    public void setPeliculas(int peliculas) {
+        this.peliculas = peliculas;
+    }
+    
 
     /**
      * @return the nombre
