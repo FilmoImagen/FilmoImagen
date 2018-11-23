@@ -1,6 +1,5 @@
 package Control;
 
-
 /**
  *
  * @author Karina VR
@@ -64,7 +63,7 @@ public class DAO extends Modelo.Configuracion {
                 newcliente.setCliente(rs.getString(1));
                 newcliente.setTotal(rs.getInt(2));
                 newcliente.setCantidad(rs.getInt(3));
-//                 System.out.println(newcliente.getTotal());
+//           System.out.println(newcliente.getTotal());
             }
             rs.close();
             this.conexion.close();
@@ -122,5 +121,3 @@ public class DAO extends Modelo.Configuracion {
         }
     }
 }
-
-
