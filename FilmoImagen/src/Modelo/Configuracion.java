@@ -7,9 +7,9 @@ package Modelo;
  */
 public class Configuracion {
     
-    protected final String URL="jdbc:mysql://localhost/cine";
+    protected final String URL="jdbc:mysql://localhost/filmoimagen";
     protected final String DRIVER="com.mysql.jdbc.Driver";
     protected final String usuario="root";
-    protected final String password="root1234";
+    protected final String password="root";
     
 }
